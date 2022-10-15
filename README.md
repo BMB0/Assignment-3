@@ -1,50 +1,51 @@
-Juego
+## Teeko Game
 
-Descripcion:
+### Description:
 
-El juego consiste en 25 espacios conectados con lineas verticales, horizontales y diagonales
+The game consists of 25 spaces connected with vertical, horizontal and diagonal lines.
 
-El juego puede dividirse en dos fases.
+The game can be divided into two phases.
 
-Primera Fase:
+### First Phase:
 
-Se tienen 4 fichas negras y 4 piezas rojas. Los jugadores deberan seleccionar entre las las casillas disponibles y realizar un moviento, para el final de esta fase hay 8 fichas en el tablero, 4 negras y 4 rojas
+There are 4 black pieces and 4 red pieces. The players must select among the available squares and make a move, by the end of this phase there are 8 pieces on the board, 4 black and 4 red.
 
-Es posible ganar en la primera fase, si nadie gana, se pasa a la segunda fase
+It is possible to win in the first phase, if no one wins, you move to the second phase.
 
-Segunda Fase:
-En esta fase los jugadores seleccionan una de sus fichas en el tablero y en cada turno se puede mover las fichas en un campo adyacente vacio, ya sea vertical, horizontal o diagonal.
+### Second Fase:
+In this phase the players select one of their pieces on the board and in each turn they can move the pieces in an adjacent empty field, either vertically, horizontally or diagonally.
 
-Esta fase continua hasta que uno de los jugadores sea el ganador.
+This phase continues until one of the players is the winner.
 
-Reglas
-- Si un jugador forma una linea de 4 fichas Gana la partida (Horizontal, Diagonal y Vertical)
+### Rules:
+- If a player forms a line of 4 tiles, he wins the game (Horizontal, Diagonal and Vertical).
 
-- Si un jugador forma un cuadrado Gana la partida
+- If a player forms a square, he wins the game.
 
-- Una vez asignadas las 4 piezas el jugador puede seleccionar una y moverla a una casilla sin asignacion
+- Once the 4 pieces are assigned, the player can select one and move it to an unassigned square.
 
 
-DESCRIPCIÓN DE LA SOLUCIÓN:
-Para la implementación de adversarial search, se usó tres algoritmos: min max, alpha beta pruning y min max with depth (Con y sin la variante alpha beta pruning). Los algoritmos mencionados con anterioridad fueron probados para ver su desempeño jugando contra humanos en el Juego Teeko. Así también se usó una huerística que tiene una matriz que representa cada casilla con una ponderación establecida donde el objetivo de la misma es posicionar las fichas en posiciones donde existan más posibilidades de ganar.
+### SOLUTION DESCRIPTION:
+
+For the implementation of adversarial search, three algorithms were used: min max, alpha beta pruning and min max with depth (with and without the alpha beta pruning variant). The aforementioned algorithms were tested for their performance playing against humans in the Teeko Game. We also used a hueristic that has a matrix representing each square with a set weighting where the objective of the matrix is to place the chips in positions where there are more chances of winning.
 
 ![alt text](https://github.com/BMB0/Assignment-3/blob/main/img/winning_moves_position.png?raw=true)
 
-Posteriormente, se toma en cuenta los turnos, mientras que en menos turnos se llegue a realizar la jugada vale más y si es que encuentra una solución ganadora esta vale más aun(Strength).
+Subsequently, the number of turns is taken into account, the fewer turns it takes to complete the move is worth more, and if a winning solution is found, it is worth even more(Strength).
 
-EXPERIMENTOS:
+## EXPERIMENTS:
 
-- Tiempos de Ejecucion por Turno
+### Execution Times per Shift
 
-- Test 1 Con ABP
+- Test 1 w/ ABP
 
 ![alt text](https://github.com/BMB0/Assignment-3/blob/main/img/Min_Max_With_Depth_Test_Times_1.png?raw=true)
 
-- Test 1 Sin ABP
+- Test 1 w/o ABP
 
 ![alt text](https://github.com/BMB0/Assignment-3/blob/main/img/Min_Max_With_Depth_No_ABP_Test_Times_1.png?raw=true)
 
-- Test 1 Con Shuffle
+- Test 1 w/ Shuffle
 
 ![alt text](https://github.com/BMB0/Assignment-3/blob/main/img/Min_Max_With_Depth_Shuffle_Test_Times_1.png?raw=true)
 
@@ -52,15 +53,15 @@ EXPERIMENTOS:
 
 ![alt text](https://github.com/BMB0/Assignment-3/blob/main/img/Times_Bars_Test1.png?raw=true)
 
-- Test 2 Con ABP
+- Test 2 w/ ABP
 
 ![alt text](https://github.com/BMB0/Assignment-3/blob/main/img/Min_Max_With_Depth_Test_Times_2.png?raw=true)
 
-- Test 2 Sin ABP
+- Test 2 w/o ABP
 
 ![alt text](https://github.com/BMB0/Assignment-3/blob/main/img/Min_Max_With_Depth_No_ABP_Test_Times_2.png?raw=true)
 
-- Test 2 Con Shuffle
+- Test 2 w/ Shuffle
 
 ![alt text](https://github.com/BMB0/Assignment-3/blob/main/img/Min_Max_With_Depth_Shuffle_Test_Times_2.png?raw=true)
 
@@ -68,15 +69,15 @@ EXPERIMENTOS:
 
 ![alt text](https://github.com/BMB0/Assignment-3/blob/main/img/Times_Bars_Test2.png?raw=true)
 
-- Test 3 Con ABP
+- Test 3 w/ ABP
 
 ![alt text](https://github.com/BMB0/Assignment-3/blob/main/img/Min_Max_With_Depth_Test_Times_3.png?raw=true)
 
-- Test 3 Sin ABP
+- Test 3 w/o ABP
 
 ![alt text](https://github.com/BMB0/Assignment-3/blob/main/img/Min_Max_With_Depth_No_ABP_Test_Times_3.png?raw=true)
 
-- Test 3 Con Shuffle
+- Test 3 w/ Shuffle
 
 ![alt text](https://github.com/BMB0/Assignment-3/blob/main/img/Min_Max_With_Depth_Shuffle_Test_Times_3.png?raw=true)
 
@@ -84,15 +85,16 @@ EXPERIMENTOS:
 
 ![alt text](https://github.com/BMB0/Assignment-3/blob/main/img/Times_Bars_Test3.png?raw=true)
 
-- Estados Expandidos Test 1
+- Expanded States Test 1
 
 ![alt text](https://github.com/BMB0/Assignment-3/blob/main/img/Expanded_States_test1.png?raw=true)
 
-- Estados Expandidos Test 2
+- Expanded States Test 2
 
 ![alt text](https://github.com/BMB0/Assignment-3/blob/main/img/Expanded_States_test2.png?raw=true)
 
 
-• Conclusiones.
+## Conclusions.
+
 
 
