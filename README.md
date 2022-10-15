@@ -28,11 +28,37 @@ Reglas
 DESCRIPCIÓN DE LA SOLUCIÓN:
 Para la implementación de adversarial search, se usó tres algoritmos: min max, alpha beta pruning y min max with depth (Con y sin la variante alpha beta pruning). Los algoritmos mencionados con anterioridad fueron probados para ver su desempeño jugando contra humanos en el Juego Teeko. Así también se usó una huerística que tiene una matriz que representa cada casilla con una ponderación establecida donde el objetivo de la misma es posicionar las fichas en posiciones donde existan más posibilidades de ganar.
 
-![alt text](img\winning_moves_position.png)
+![alt text](https://github.com/BMB0/Assignment-3/blob/main/img/winning_moves_position.png?raw=true)
 
 Posteriormente, se toma en cuenta los turnos, mientras que en menos turnos se llegue a realizar la jugada vale más y si es que encuentra una solución ganadora esta vale más aun(Strength).
 
 EXPERIMENTOS:
+
+- Tiempos de Ejecucion por Turno
+
+- Test 1 Con ABP
+
+![alt text](https://github.com/BMB0/Assignment-3/blob/main/img\Min_Max_With_Depth_Test_Times_1.png?raw=true)
+
+- Test 1 Sin ABP
+
+![alt text](https://github.com/BMB0/Assignment-3/blob/main/img\Min_Max_With_Depth_No_ABP_Test_Times_1.png?raw=true)
+
+- Test 2 Con ABP
+
+![alt text](https://github.com/BMB0/Assignment-3/blob/main/img\Min_Max_With_Depth_Test_Times_2.png?raw=true)
+
+- Test 2 Sin ABP
+
+![alt text](https://github.com/BMB0/Assignment-3/blob/main/img\Min_Max_With_Depth_No_ABP_Test_Times_2.png?raw=true)
+
+- Test 3 Con ABP
+
+![alt text](https://github.com/BMB0/Assignment-3/blob/main/img\Min_Max_With_Depth_Test_Times_3.png?raw=true)
+
+- Test 3 Sin ABP
+
+![alt text](https://github.com/BMB0/Assignment-3/blob/main/img\Min_Max_With_Depth_No_ABP_Test_Times_3.png?raw=true)
 
 - Estados expandidos con el algoritmo min max with depth con alpha beta pruning
 
