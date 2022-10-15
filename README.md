@@ -96,5 +96,11 @@ Subsequently, the number of turns is taken into account, the fewer turns it take
 
 ## Conclusions.
 
+The objective of this assignment was to develop the Teeko game and apply the MinMax algorithms and its variants. It was determined that the MinMax and MinMax Alpha beta pruning algorithms cannot be used when the state space is large. The algorithms were evaluated using both time and expanded states. The Min Max With Depth ABP and Min Max With Depth ABP and Shuffle algorithms had very similar results, but the number of expanded states and time spent in the Min Max With Depth ABP and Shuffle algorithm were lower.
+
+Overall, the goal and challenge of developing the Teeko game and implementing the algorithms has been achieved. Obtaining satisfactory results with a number of expanded states given a clean board of: 250k+ states for the Min Max With Depth w/o Alpha Beta Pruning algorithm and less than 50k states for the Min Max With Depth ABP and Min Max With Depth ABP and Shuffle algorithms.
+
+
+
 
 
