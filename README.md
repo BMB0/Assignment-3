@@ -84,11 +84,17 @@ EXPERIMENTOS:
 
 ![alt text](https://github.com/BMB0/Assignment-3/blob/main/img/Times_Bars_Test3.png?raw=true)
 
-- Estados expandidos con el algoritmo min max with depth con alpha beta pruning
+- Estados Expandidos Test 1
 
-- Estados expandidos con el algoritmo min max with depth sin alpha beta pruning
+![alt text](https://github.com/BMB0/Assignment-3/blob/main/img/Expanded_States_test1.png?raw=true)
 
-- Estados expandidos con el algoritmo min max with depth con alpha beta pruning de forma randomizada.
+- Estados Expandidos Test 2
+
+![alt text](https://github.com/BMB0/Assignment-3/blob/main/img/Expanded_States_test2.png?raw=true)
+
+- Estados Expandidos Test 3
+
+![alt text](https://github.com/BMB0/Assignment-3/blob/main/img/Expanded_States_test3.png?raw=true)
 
 - Grafica de Barras
 
