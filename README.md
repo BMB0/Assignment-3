@@ -93,13 +93,6 @@ EXPERIMENTOS:
 ![alt text](https://github.com/BMB0/Assignment-3/blob/main/img/Expanded_States_test2.png?raw=true)
 
 
-- Grafica de Barras
-
-- Comparaciones de Tiempo en la ejecucion de los algoritmos 
-
-
-
-
-• Experimentos realizados.
 • Conclusiones.
-Ademas, se tendra una seccion donde se indicara como ejecutar el proyecto (Installation Guide).
+
+
