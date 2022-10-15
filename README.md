@@ -44,6 +44,10 @@ EXPERIMENTOS:
 
 ![alt text](https://github.com/BMB0/Assignment-3/blob/main/img/Min_Max_With_Depth_No_ABP_Test_Times_1.png?raw=true)
 
+- Test 1 Con Shuffle
+
+![alt text](https://github.com/BMB0/Assignment-3/blob/main/img/Min_Max_With_Depth_Shuffle_Test_Times_1.png?raw=true)
+
 - Test 2 Con ABP
 
 ![alt text](https://github.com/BMB0/Assignment-3/blob/main/img/Min_Max_With_Depth_Test_Times_2.png?raw=true)
@@ -52,6 +56,10 @@ EXPERIMENTOS:
 
 ![alt text](https://github.com/BMB0/Assignment-3/blob/main/img/Min_Max_With_Depth_No_ABP_Test_Times_2.png?raw=true)
 
+- Test 2 Con Shuffle
+
+![alt text](https://github.com/BMB0/Assignment-3/blob/main/img/Min_Max_With_Depth_Shuffle_Test_Times_2.png?raw=true)
+
 - Test 3 Con ABP
 
 ![alt text](https://github.com/BMB0/Assignment-3/blob/main/img/Min_Max_With_Depth_Test_Times_3.png?raw=true)
@@ -59,6 +67,10 @@ EXPERIMENTOS:
 - Test 3 Sin ABP
 
 ![alt text](https://github.com/BMB0/Assignment-3/blob/main/img/Min_Max_With_Depth_No_ABP_Test_Times_3.png?raw=true)
+
+- Test 3 Con Shuffle
+
+![alt text](https://github.com/BMB0/Assignment-3/blob/main/img/Min_Max_With_Depth_Shuffle_Test_Times_3.png?raw=true)
 
 - Estados expandidos con el algoritmo min max with depth con alpha beta pruning
 
