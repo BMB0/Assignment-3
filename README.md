@@ -92,9 +92,6 @@ EXPERIMENTOS:
 
 ![alt text](https://github.com/BMB0/Assignment-3/blob/main/img/Expanded_States_test2.png?raw=true)
 
-- Estados Expandidos Test 3
-
-![alt text](https://github.com/BMB0/Assignment-3/blob/main/img/Expanded_States_test3.png?raw=true)
 
 - Grafica de Barras
 
