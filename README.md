@@ -35,7 +35,7 @@ Subsequently, the number of turns is taken into account, the fewer turns it take
 
 ## EXPERIMENTS:
 
-### Execution Times per Shift
+### Execution Times per Turn:
 
 - Test 1 w/ ABP
 
