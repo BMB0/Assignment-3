@@ -1,5 +1,8 @@
 ## Teeko Game
 
+### Installation Guide:
+Download Teeko.ipynb and Run All
+
 ### Description:
 
 The game consists of 25 spaces connected with vertical, horizontal and diagonal lines.
