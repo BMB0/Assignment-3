@@ -38,6 +38,8 @@ Subsequently, the number of turns is taken into account, the fewer turns it take
 
 ## EXPERIMENTS:
 
+All experiments were performed with the variants of the Min Max With Depth algorithm with a maximum Depth of 3
+
 ### Execution Times per Turn:
 
 - Test 1 w/ ABP
